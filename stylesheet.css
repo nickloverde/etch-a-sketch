@@ -1,0 +1,68 @@
+.container {
+    display: grid;
+    background: red;
+    border-radius: 10px;
+    box-shadow:10px 10px 10px black;
+    margin: auto;
+    padding: 1em;
+    margin-top: 1rem;
+    margin-right: 9rem;
+    margin-left: 9rem;
+}
+
+.container > div {
+    padding: 1rem;
+}
+
+.title {
+    text-align: center;
+    color: rgb(235, 190, 43);
+    font-size: 45px;
+    font:  ;
+    text-shadow: 2px 2px #0f0202;
+}
+
+#grid{
+    box-sizing: border-box;
+    height: 500px;
+    width: 500px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.button {
+    text-align: center;
+}
+
+#reset-btn {
+    font-size: 18px;
+}
+
+.dot-right {
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    float: right;
+    box-shadow: 3px 3px 3px grey;
+  }
+
+.dot-left {
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    float: left;
+    box-shadow: 3px 3px 3px grey;
+}
+
+.newGrid{
+    box-sizing: border-box;
+    float: left;
+    clear: right;
+    border: none;
+    margin: 0 auto;
+}
